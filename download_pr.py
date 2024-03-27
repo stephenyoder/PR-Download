@@ -84,7 +84,7 @@ def download_pull_request(org, access_token, repo_name, pr_number):
 
 if __name__ == "__main__":
     if len(sys.argv) != 5:
-        print("Usage: python script_name.py org access_token repo_name pr_number")
+        print("Usage: python download_pr.py org access_token repo_name pr_number")
         sys.exit(1)
 
     username, access_token, repo_name, pr_number = sys.argv[1:]
