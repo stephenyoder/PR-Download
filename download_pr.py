@@ -23,5 +23,5 @@ if __name__ == "__main__":
         sys.exit(1)
 
     username, access_token, repo_name, pr_number = sys.argv[1:]
-    access_token = ""
+    # change a;lksdjfa
     download_pull_request(username, access_token, repo_name, pr_number)
