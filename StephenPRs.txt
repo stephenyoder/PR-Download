@@ -1,0 +1,99 @@
+FOPTS-2272send kinesis msg during persist debounce period 
+FOPTS-2242 update persist images 
+FOPTS-2242 add beacon public key to us 
+FOPTS-2237 add beacon-staging.pub and remove unused vo-fsa-staging.pub 
+FOPTS-2109 add pub keys staging 
+FOPTS-1706 Massive Import alerts should alert at a lower threshold 
+FOPTS-1813 force flag in generic billing transform & update azure china ID 
+FOPTS-1713 latest persist image with identical manifest check 
+FOPTS-1813 add force flag to generic transform script 
+FOPTS-1367 update OBM image to enable ri/sp allocations for new aws b… 
+Revert "FOPTS-1367 aws create to enable ri sp realloc" 
+FOPTS-1367 aws create to enable ri sp realloc 
+FOPTS-1652 add logging and fix poller ticker 
+FOPTS-1598 BA Explorer service image to fix 502 error from malformed … 
+FOPTS-1593 remove old EDP entry for org 35136 
+FOPTS-1593 change EDP start date for org 35136 to 2022-10 
+FOPTS-693 increase budget segments limit to 2,000 
+Fopts 1490 adjustments increase bc id length 
+FOPTS-1538 Update OBM image to fix AWS bucket naming checks 
+FOPTS-1540 Improve Druid import "waits" for org 
+FOPTS-1494 reduce ephemeral storage usage by decreasing pricesheet cache space 
+FOPTS-834 add latest release images to add timeout to gcs clients 
+SQ_3185 increase org's upload limit 1000 -> 3000 
+FOPTS-1222 update obi image for adding synnex azure gov tenants 
+FOPTS-854 CSA Front public api design 
+FOPTS-1279 update APAC csa_front deployment, virtualservice, & route53 
+FOPTS-1222 latest release image to add synnex azure gov tenants 
+FOPTS-726 fix privategateway uri prefixes 
+FOPTS-856 csa front add virtualservice configurations 
+FOPTS-856 update csa front service image 
+Fopts 726 optima bill analysis front service expose route to fetch accounts and tags 
+FOPTS-856 revert csa front service staging image to match production … 
+FOPTS-856 revert csa front service image 
+FOPTS-866 Add additional fields to recommendations 
+FOPTS-856 update to newest commend spend analytics image 
+FOPTS-863 allow new cloud_vendor_ids in response 
+FOPTS-721 add account tag prometheus alerts for staging 
+FOPTS-591 faster ephemeral runners optima bill 
+FOPTS-577 update bill-analysis to use github ephemeral runners 
+FOPTS-576 Use Github Ephemeral Runner 
+FOPTS-479 monitor emr from the druid indexing eks cluster 
+update gh action token 
+FOPTS-70 clean up old unused terraform 
+update gh action token 
+increase mem for prometheus 
+Update gh runner 
+update gh runners to v2.7.2
+SQ-1858 enable BC via RBD for (org 34079) 
+SQ-1854 enable RBD for org 34991. 
+SQ-1756 enable custom dim for (eu 32078) 
+AET-672 ba front service images to add metrics API 
+Ind 5555 s3 clients use default chain 
+IND-5941 update image tags for eks 1.24 chanes 
+IND-5886 implement IRSA auth for gooddata-import-service 
+IND-5847 add request to kill istio-proxy container in cronjob 
+IND-5892 Remove hanging azure_ea_normalization_ratios jobs
+IND-5870 image to include protobuf package upgrades
+IND-5686 update latest image to include upgrading protobuf package
+IND-5635 update dynamo images with consul package upgrade
+IND-5638 add new aws-hosted grafana dashboards for au
+IND-5854 enabling BC allocation by RBD for org 31161
+IND-5835 Add OPTIMA_BILL_METADATA_SERVICE_POLL-FREQUENCY to yaml
+IND-5634 update au image to match what is currently deployed
+IND-5835 cloud vendor images to upgrade prometheus package
+IND-5841 add au query service image
+IND-5834 bill_monitoring images to upgrade prometheus
+Ind 5634 upgrade prometheus for billing center service
+IND-5752 Fix: azure-ea-normalization-ratios cronjob is in an error state
+IND-5841 update query service to include new org-specific dimensions
+IND-5756 Disable RBD Allocation to BC for org 34227)
+IND-5532 change env variables on eu
+Ind 5532 use default aws cred chain
+IND-5723 enable BC allocation for  (org 34227)
+SQ-593 add billing adjustments for EDP Discount for (org 34608)
+IND-5717 increase org 34204 bill upload limit to 500
+Ind 5700 upgrade text package
+Ind 5699 upgrade text package bill analysis
+Ind 5693 fix gh actions & IND-5705_gcp_cud_rate_reduction
+Ind 5698 upgrade text package for ri planning services images
+Ind 5696 upgrade text package billing center service
+IND-5693 new images to upgrade text package for optima-recommendations services
+IND-5695 Upgrade Text package - cloud_vendor
+IND-5640_update_text_package update golang.org/x/text version to v0.4.0
+Ind create sa gd workspace
+IND-5434_populate_policySet_field_for_all_recommendations
+IND-5412 add graph for recommendations details metrics
+IND-5231 add details metrics and enforce details limit
+IND-5349 support multiple shards for applied_policy_service
+IND-5329 Add applied policy metrics Grafana graphs
+IND-5234 Modify recommendation scraping to use info block
+IND-5164 Add ResourceGroup field to Recommendations message
+IND-5198 Releasing scraper service
+IND-5031 Add GCP Recommendations in scraper service
+IND-5131 prometheus alerts for mongodb collections monitor
+IND-5111_metric_for_mongo_collections_count
+IND-5111_metric_for_mongo_collections_count
+IND-5098 Add check for recommendations front service
+IND 4765 Create script to run weekly to output current customers spend
+IND-4765 Create script to run weekly to output current customers spend
