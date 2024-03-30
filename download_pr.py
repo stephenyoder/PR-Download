@@ -4,6 +4,24 @@ from urllib.parse import urlparse
 from github import Github
 from github import Auth
 
+def read_file_to_list(file_path):
+    # Initialize an empty list to store the lines
+    lines_list = []
+
+    try:
+        # Open the file in read mode
+        with open(file_path, 'r') as file:
+            # Read each line and add it to the list
+            for line in file:
+                lines_list.append(line.strip())  # strip() removes leading and trailing whitespaces
+
+    except FileNotFoundError:
+        print(f"Error: File '{file_path}' not found.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+    return lines_list
+
 
 def list_user_pull_requests(username, access_token):
     headers = {
